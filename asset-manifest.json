@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/fellowship-favorite-classes/static/css/main.bf57304d.css",
+    "main.js": "/fellowship-favorite-classes/static/js/main.d384d241.js",
+    "static/js/453.09481c83.chunk.js": "/fellowship-favorite-classes/static/js/453.09481c83.chunk.js",
+    "static/media/logo.svg": "/fellowship-favorite-classes/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/fellowship-favorite-classes/index.html",
+    "main.bf57304d.css.map": "/fellowship-favorite-classes/static/css/main.bf57304d.css.map",
+    "main.d384d241.js.map": "/fellowship-favorite-classes/static/js/main.d384d241.js.map",
+    "453.09481c83.chunk.js.map": "/fellowship-favorite-classes/static/js/453.09481c83.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf57304d.css",
+    "static/js/main.d384d241.js"
+  ]
+}
