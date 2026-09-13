@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import Class from "../Class/Class.js";
+import "./Home.css";
 
 function Home(props) {
     const [value, setValue] = useState('');
@@ -19,14 +20,14 @@ function Home(props) {
     }
 
     return (
-        <div>
-            <h1>Hello World!</h1>
+        <div className="home">
+            <h1>Favorite Classes</h1>
             <form onSubmit={handleSubmit}>
                 <label>Add Favorite Class</label>
                 <input type="text" value={value} onChange={handleChange}></input>
                 <button type="submit">Add Class!</button>
             </form>
-            <div>
+            <div className="listClasses">
                 {favoriteClasses.map((favClass) =>
                     <Class name={favClass} key={favClass}></Class>
                 )}
