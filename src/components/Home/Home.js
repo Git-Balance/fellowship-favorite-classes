@@ -16,7 +16,7 @@ function Home(props) {
             setClasses(favoriteClasses.concat(value));
             setValue('');
         }
-        console.log(favoriteClasses);
+        // console.log(favoriteClasses);
     }
 
     return (

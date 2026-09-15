@@ -1,10 +1,10 @@
 .class {
-    width: 100px;
+    width: 300px;
     /* height: 100px; */
     /* flex-basis: 100px; */
     padding: 5px;
     background-color: #EEEEEE;
-    border: 5px solid black;
+    /* border: 5px solid black; */
     border-radius: 10px;
     /* border: whitesmoke; */
 }

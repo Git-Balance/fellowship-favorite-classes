@@ -1,12 +1,18 @@
 
 .listClasses {
   margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   display: flex;
   /* background-color: palevioletred; */
   height: auto;
   flex-wrap: wrap;
   flex-direction: row; /* this is the default
                      but I like stating this */
-  justify-content: center;
-  gap: 5px;
+  /* justify-content: space-evenly; */
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
 }
