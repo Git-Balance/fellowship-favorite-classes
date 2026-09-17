@@ -4,7 +4,6 @@ import "./Class.css"
 function Class(props) {
 
     const [classInfo, setClassInfo] = useState({});
-    const [isLoadingClass, setLoadingClass] = useState(true)
 
     const url = "https://anteaterapi.com/v2/rest/courses/";
 
@@ -16,7 +15,6 @@ function Class(props) {
             const data = await response.json();
             console.log(data);
             setClassInfo(data);
-            setLoadingClass(false)
         }
         fetchData();
     }, [props.name]);
