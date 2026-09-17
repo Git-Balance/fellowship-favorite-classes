@@ -1,7 +1,10 @@
 # Fellowship Favorite Classes
 
-This is an app that lets a user fetch information about UC Irvine classes
+This is a webapp that lets a user fetch information about UC Irvine classes
 
-This is created for the [ICSSC Fellowship](https://fellowship.icssc.club/) course
+This is created for unit 7 and 8 of the [ICSSC Fellowship](https://fellowship.icssc.club/) course
 
-Currently, this website is inprogress
+Tutorials followed:
+- [Unit 7: Intro to React](https://www.youtube.com/watch?v=b2UqdLAT07w)
+- [Unit 8: Intro to APIs](https://www.youtube.com/watch?v=wHWBw-lHdLM)
+
